@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    color: grey;
+    padding: 25px;
+    display: flex;
+    font-size: 20px;
+    display: flex;
+    padding-left: 75px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: grey;
+    padding-right: 20px;
+    display: flex;
+    width: 100px;
+}
+
+.nav-items {
+    margin-left: auto;
+    padding-right:10px ;
+    display: flex;
+}
+.logo{
+    padding-right: 190px;
+    padding-left: 150px;
+    color: black;
+    font-weight: 100;
+    font-size: 30px;
+}
+.content{
+    display: grid;
+    align-content: center;
+    height: 90%;
+    width: 80%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas:
+    "one one two"
+    "three four two"
+    "five six seven"
+   ;
+   align-items: center;
+   gap: 5px;
+   /* margin-top: 10px; */
+   /* padding: 10px; */
+   padding-left: 200px;
+}
+
+.container{
+   height: 98vh;
+   width: 98vh;
+   justify-content: center;
+   align-items: center;
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+   margin-top: 20px;
+   margin-right: 40px;
+   margin-left: 40px;
+  
+}
+/* one */
+.one{
+    padding: 10px;
+    grid-area: one;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.one img{
+    padding-top: 20px;
+    grid-area: one;
+    width: 95%;
+    height: 110%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* two */
+.two{
+    width: 300px;
+    background-color: black;
+    grid-area: two;
+    padding: 5px;
+    height: 400px;
+}
+.two h1{
+    color: orange;
+    font-size: 40px;
+    
+}
+
+.weida{
+   color: white;
+   font-size: large;
+}
+.param{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.425);
+}
+
+/* three */
+.three {
+  height: 200px;
+  font-weight: 100;
+  width: 150px;
+  grid-area: three;
+  /* display: block; */
+  display: grid;
+  font-size: 15px;
+width: 200px;
+}
+
+/* four */
+.four{
+    width: 200px;
+    grid-area: four;
+    padding: 5px;
+    height: 200px;
+    /* display: inline-block; */
+    text-align: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.four p{
+    color: rgba(0, 0, 0, 0.685);
+    flex-direction: column;
+    display: block;
+    /* width: 400px; */
+}
+.four button{
+    color: white;
+    height: 30px;
+    width: 150px;
+    background-color: red;
+
+}
+
+.five{
+    display: flex;
+    grid-area: five;
+    padding: 5px;
+    height: 200px;
+}
+.five img{
+    height: 200px;
+    width: 150px;
+}
+.six{
+    display: flex;
+    grid-area: six;
+    padding: 5px;
+    height: 200px;
+}
+.six img {
+    height: 200px;
+    width: 150px;
+}
+.seven{
+    display: flex;
+    padding: 5px;
+    grid-area: seven;
+    padding-top: -10px;
+}
+.seven img {
+    height: 200px;
+    width: 150px;
+}
+
+.num{
+    color: grey;
+} 
+
+.p{
+    color: rgba(0, 0, 0, 0.397);
+    width: 120px;
+}
